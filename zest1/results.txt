@@ -1,0 +1,34 @@
+Results of tests for arrays of 100000 blocks 1500 chars  
+
+Real time for creating dynamic array = 0.846 
+User time for creating dynamic array = 0.000000 
+Kernel time for creating dynamic array = 0.000000 
+
+Real time for creating static array = 0.732 
+User time for creating static array = 0.000000 
+Kernel time for creating static array = 0.000000 
+
+Real time for finding closest block in dynamic array = 0.757 
+User time for finding closest block in dynamic array = 0.000000 
+Kernel time for finding closest block in dynamic array = 0.000000 
+
+Real time for finding closest block in static array = 0.659 
+User time for finding closest block in static array = 0.000000 
+Kernel time for finding closest block in static array = 0.000000 
+
+Real time for linear deleting and creating dynamic blocks = 0.707 
+User time for linear deleting and creating dynamic blocks = 0.000000 
+Kernel time for linear deleting and creating dynamic blocks = 0.000000 
+
+Real time for linear deleting and creating static blocks = 0.748 
+User time for linear deleting and creating static blocks = 0.000000 
+Kernel time for linear deleting and creating static blocks = 0.000000 
+
+Real time for alternating deleting and creating dynamic blocks = 0.831 
+User time for alternating deleting and creating dynamic blocks = 0.000000 
+Kernel time for alternating deleting and creating dynamic blocks = 0.000000 
+
+Real time for alternating deleting and creating static blocks = 0.758 
+User time for alternating deleting and creating static blocks = 0.000000 
+Kernel time for alternating deleting and creating static blocks = 0.000000 
+

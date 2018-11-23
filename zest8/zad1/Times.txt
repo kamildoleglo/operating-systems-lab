@@ -1,0 +1,16 @@
+Filtering time using 1 threads with filter matrix of order 25: 
+1479078790 ns 
+Filtering time using 2 threads with filter matrix of order 25: 
+871847300 ns 
+Filtering time using 4 threads with filter matrix of order 25: 
+863225314 ns 
+Filtering time using 8 threads with filter matrix of order 25: 
+895781995 ns 
+Filtering time using 20 threads with filter matrix of order 25: 
+841973624 ns 
+Filtering time using 64 threads with filter matrix of order 25: 
+840269923 ns 
+Filtering time using 5 threads with filter matrix of order 25: 
+860178783 ns 
+Filtering time using 5 threads with filter matrix of order 25: 
+849306933 ns 

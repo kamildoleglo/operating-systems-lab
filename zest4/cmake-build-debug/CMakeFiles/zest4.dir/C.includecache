@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kamil/CLionProjects/zest4/zad2/main.c
+stdio.h
+-
+signal.h
+-
+stdbool.h
+-
+zconf.h
+-
+time.h
+-
+stdlib.h
+-
+sys/wait.h
+-
+

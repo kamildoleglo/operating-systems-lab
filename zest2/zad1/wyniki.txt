@@ -1,0 +1,135 @@
+Copy 2000 blocks 4 bytes each using library functions
+Real time = 0.000223 
+User time = 0.000230 
+System time = 0.000000 
+Copy 2000 blocks 4 bytes each using system functions
+Real time = 0.005988 
+User time = 0.000000 
+System time = 0.005994 
+Copy 4000 blocks 4 bytes each using library functions
+Real time = 0.000459 
+User time = 0.000000 
+System time = 0.000465 
+Copy 4000 blocks 4 bytes each using system functions
+Real time = 0.008426 
+User time = 0.000000 
+System time = 0.008432 
+Copy 2000 blocks 512 bytes each using library functions
+Real time = 0.001794 
+User time = 0.001801 
+System time = 0.000000 
+Copy 2000 blocks 512 bytes each using system functions
+Real time = 0.005343 
+User time = 0.002166 
+System time = 0.003197 
+Copy 4000 blocks 512 bytes each using library functions
+Real time = 0.003050 
+User time = 0.000000 
+System time = 0.003055 
+Copy 4000 blocks 512 bytes each using system functions
+Real time = 0.010205 
+User time = 0.000000 
+System time = 0.010211 
+Copy 2000 blocks 4096 bytes each using library functions
+Real time = 0.008569 
+User time = 0.000000 
+System time = 0.008575 
+Copy 2000 blocks 4096 bytes each using system functions
+Real time = 0.010013 
+User time = 0.000000 
+System time = 0.010007 
+Copy 4000 blocks 4096 bytes each using library functions
+Real time = 0.017449 
+User time = 0.000000 
+System time = 0.017429 
+Copy 4000 blocks 4096 bytes each using system functions
+Real time = 0.018035 
+User time = 0.003309 
+System time = 0.014726 
+Copy 2000 blocks 8192 bytes each using library functions
+Real time = 0.015589 
+User time = 0.000000 
+System time = 0.015586 
+Copy 2000 blocks 8192 bytes each using system functions
+Real time = 0.014752 
+User time = 0.003346 
+System time = 0.011407 
+Copy 4000 blocks 8192 bytes each using library functions
+Real time = 0.032790 
+User time = 0.003829 
+System time = 0.028963 
+Copy 4000 blocks 8192 bytes each using system functions
+Real time = 0.034591 
+User time = 0.000000 
+System time = 0.033501 
+Sort 2000 blocks 4 bytes each using library functions
+Real time = 2.990362 
+User time = 0.939317 
+System time = 2.051630 
+Sort 2000 blocks 4 bytes each using system functions
+Real time = 3.991782 
+User time = 0.675826 
+System time = 3.316645 
+Sort 4000 blocks 4 bytes each using library functions
+Real time = 11.747406 
+User time = 3.676406 
+System time = 8.073565 
+Sort 4000 blocks 4 bytes each using system functions
+Real time = 16.054197 
+User time = 2.800002 
+System time = 13.257412 
+Sort 2000 blocks 512 bytes each using library functions
+Real time = 3.427518 
+User time = 0.899782 
+System time = 2.528252 
+Sort 2000 blocks 512 bytes each using system functions
+Real time = 4.182664 
+User time = 0.683646 
+System time = 3.500001 
+Sort 4000 blocks 512 bytes each using library functions
+Real time = 13.702586 
+User time = 3.552224 
+System time = 10.153467 
+Sort 4000 blocks 512 bytes each using system functions
+Real time = 16.586058 
+User time = 2.688063 
+System time = 13.902081 
+Sort 2000 blocks 4096 bytes each using library functions
+Real time = 5.361347 
+User time = 1.339305 
+System time = 4.022890 
+Sort 2000 blocks 4096 bytes each using system functions
+Real time = 4.918547 
+User time = 0.967585 
+System time = 3.951650 
+Sort 4000 blocks 4096 bytes each using library functions
+Real time = 21.507217 
+User time = 5.224699 
+System time = 16.287200 
+Sort 4000 blocks 4096 bytes each using system functions
+Real time = 20.051172 
+User time = 2.856520 
+System time = 17.172878 
+Sort 2000 blocks 8192 bytes each using library functions
+Real time = 8.806780 
+User time = 1.278272 
+System time = 7.519878 
+Sort 2000 blocks 8192 bytes each using system functions
+Real time = 7.509680 
+User time = 0.706891 
+System time = 6.796386 
+Sort 4000 blocks 8192 bytes each using library functions
+Real time = 34.968846 
+User time = 4.533432 
+System time = 30.413521 
+Sort 4000 blocks 8192 bytes each using system functions
+Real time = 30.606591 
+User time = 2.770847 
+System time = 27.827199 
+
+
+
+
+
+Wnioski:
+Przy małych rozmiarach bloków zauważamy, iż funkcje biblioteczne działają szybciej niż systemowe. Wraz ze wzrostem rozmiaru bloku zmniejsza się również różnica między czasem wykonania. Finalnie dla bloków wielkości 4096 i więcej funkcje systemowe osiągają krótsze czasy niż funkcje biblioteczne, gdyż funkcje biblioteczne korzystają z buforów.

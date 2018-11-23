@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/zest10.dir/zad1/server.c.o CMakeFiles/zest10.dir/zad1/client.c.o  -o zest10 -lpthread -lrt 

@@ -1,0 +1,6 @@
+Filtering time using 10 threads with filter matrix of order 25: 
+1375926402 ns 
+Filtering time using 10 threads with filter matrix of order 25: 
+1055001909 ns 
+Filtering time using 10 threads with filter matrix of order 25: 
+948578563 ns 

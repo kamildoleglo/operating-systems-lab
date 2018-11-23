@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/zest5.dir/zad1/main.c.o CMakeFiles/zest5.dir/zad1/main2.c.o CMakeFiles/zest5.dir/zad2/master.c.o CMakeFiles/zest5.dir/zad2/slave.c.o  -o zest5 

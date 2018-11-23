@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/zest4.dir/zad2/main.c.o  -o zest4 

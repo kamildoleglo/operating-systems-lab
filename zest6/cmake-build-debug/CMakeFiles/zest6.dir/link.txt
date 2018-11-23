@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/zest6.dir/server.c.o CMakeFiles/zest6.dir/posix/server.c.o CMakeFiles/zest6.dir/posix/client.c.o  -o zest6 

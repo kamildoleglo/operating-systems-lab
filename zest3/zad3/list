@@ -1,0 +1,3 @@
+./cpu_limit_violation
+ps aux 
+ls -l
