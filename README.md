@@ -1,5 +1,5 @@
 # operating-systems
-Solutions to excercises for operating systems course at AGH 
+Solutions to exercises for operating systems course at AGH 
 
 # Disclaimer 
 They made me write it, against my will.
